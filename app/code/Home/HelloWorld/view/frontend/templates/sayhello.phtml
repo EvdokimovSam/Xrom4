@@ -1,0 +1,23 @@
+<style>
+    table {  font-family: arial, sans-serif;  border-collapse: collapse;  width: 100%;  margin-top: 30px;}
+    td, th {  border: 1px solid #dddddd;  text-align: left;  padding: 8px;  }
+
+
+
+</style>
+
+<table>
+
+    <?php foreach ($block->test() as $key=>$post){
+    echo '<tr>
+        <th>'.$key.'</th>
+        <td>'.$post.'</td>
+
+    </tr>';
+    }
+    ?>
+
+
+</table>
+
+
